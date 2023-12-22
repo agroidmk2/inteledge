@@ -1,0 +1,25 @@
+## 1.
+
+#pragma once
+class Tower
+{
+public:
+	Tower(); // Tower는 단순 객체이름 앞에 어떠한 수식어가 들어가도 상관없다. ex. 플레이어와 컴퓨터
+	Tower(int a);
+	int getHeight();
+private:
+	int height;
+
+};
+
+Tower::Tower() : height(1)      // : a(a) 괄호 밖의 a는 클레스 변수에 대한 내용이며 괄호 안에 있는 것은 매게 변수의 값에 대한 내용
+{
+}
+
+Tower::Tower(int h) : height(h)
+{
+}
+int Tower::getHeight()       // Tower::getHeight() 의 의미는 Tower 클레스에 있는 getHeight를 의미한다.
+{
+	return height;
+}
