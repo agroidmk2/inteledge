@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\visual\Project1\24_01_02\10_2\main.cpp(10): warning C4715: 'equalArrays<int>': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\visual\Project1\24_01_02\10_2\main.cpp(10): warning C4715: 'equalArrays<double>': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  10_2.vcxproj -> D:\visual\Project1\24_01_02\x64\Debug\10_2.exe
