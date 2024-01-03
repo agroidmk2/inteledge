@@ -1,0 +1,13 @@
+﻿  main.cpp
+D:\visual\Project1\24_01_02\prac10\main.cpp(39,4): warning C4101: 'retData' :참조되지 않은 지역 변수입니다.
+D:\visual\Project1\24_01_02\prac10\main.cpp(38,1): message : 클래스 템플릿 멤버 함수 'T MyStack<T>::pop(void)'을(를) 컴파일하는 중입니다.
+          with
+          [
+              T=int
+          ]
+D:\visual\Project1\24_01_02\prac10\main.cpp(57,23): message : 'main'에서 'MyStack<int>::pop'에 대한 첫 번째 참조를 확인하세요.
+D:\visual\Project1\24_01_02\prac10\main.cpp(55,15): message : 컴파일되는 클래스 템플릿 인스턴스화 'MyStack<int>'에 대한 참조를 확인하세요.
+D:\visual\Project1\24_01_02\prac10\main.cpp(51): warning C4715: 'MyStack<int>::pop': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\visual\Project1\24_01_02\prac10\main.cpp(51): warning C4715: 'MyStack<double>::pop': 모든 제어 경로에서 값을 반환하지는 않습니다.
+D:\visual\Project1\24_01_02\prac10\main.cpp(51): warning C4715: 'MyStack<char>::pop': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  prac10.vcxproj -> D:\visual\Project1\24_01_02\x64\Debug\prac10.exe
